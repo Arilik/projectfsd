@@ -1,0 +1,24 @@
+{
+  "name": "projectfsd",
+  "version": "1.0.0",
+  "description": "webpackproject",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arilik/projectfsd.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "webpack"
+  ],
+  "author": "Aleksandr <sasha-chagdurov@mail.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arilik/projectfsd/issues"
+  },
+  "homepage": "https://github.com/Arilik/projectfsd#readme"
+}
