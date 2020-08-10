@@ -1,0 +1,18 @@
+@import "~normalize.css";
+@import "montserrat.css";
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.color {
+    text-align: center;
+    color: blue;
+    
+}
+.logo {
+    background-image: url("../img/vlad.png");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+  }
