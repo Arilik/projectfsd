@@ -40,7 +40,7 @@ module.exports = {
     context: path.resolve(__dirname, 'src'),
   mode: "development",
   entry: {
-    main: ['@babel/polyfill','./index.jsx'], 
+    main: ['@babel/polyfill','./index.js'], 
     analytics: './analytics.ts'
   }, 
   output: {
@@ -59,11 +59,12 @@ module.exports = {
   devtool: isDev ? 'source-map' : '',
   plugins: [
       new HTMLWebpackPlugin({
-          template: './index.html',
+          template: './pug/index.pug',
           minify: {
             collapseWhitespace: isProd
           }
       }),
+
       new CleanWebpackPlugin(),
       new MiniCSSExtractPlugin({
           filename: filename('css'),
@@ -111,6 +112,10 @@ module.exports = {
               loader: 'babel-loader',
               options: babelOptions('@babel/preset-react')
             } 
+          },
+          {
+            test: /\.pug$/,
+            loader: 'pug-loader'
           }
       ]
   }

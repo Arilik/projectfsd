@@ -27,5 +27,13 @@ body {
   color: darkblue;
 }
 
-.card{padding:1rem;border-radius:5px;margin-top:1rem}.card h2{text-align:center;color:red}
+.card {
+  padding: 1rem;
+  border-radius: 5px;
+  margin-top: 1rem; }
+  .card h2 {
+    text-align: center;
+    color: red; }
 
+
+/*# sourceMappingURL=main.css.map*/
