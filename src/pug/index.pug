@@ -1,15 +1,10 @@
-head
-  meta(charset='UTF-8')
-  meta(name='viewport' content='width=device-width, initial-scale=1.0')
-  title Testwebpack
-hr
-.logo
-hr
-pre.
-p   Это из PUG
-hr
-.box
-  h2 Less 
-hr
-.card
-  h2 sass
+extends ../layouts/ui-kit-layout
+extends ../blocks/ui-kit-header/ui-kit-header
+
+block variables
+  - var title = 'Type and Color';
+  - var pageClass = 'TypeandColor';
+header 
+block content 
+  section 
+    p Proverka shablona 2
